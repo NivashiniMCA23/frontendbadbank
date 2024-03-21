@@ -17,7 +17,7 @@ export default function Withdraw(){
 
     useEffect(() => {
         async function fetchdata() {
-            await axios.get('http://localhost:8080/data').then((item) => {
+            await axios.get('https://server-0pwt.onrender.com/data').then((item) => {
              setData(item.data);
              console.log(data);
             
